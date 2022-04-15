@@ -1,0 +1,64 @@
+body{
+background: grey;
+}
+figure{
+padding: 30px 20px 40px;
+background: white;
+width: 1400px;
+text-align: center;
+margin: 30px auto  ;
+max-width: max-content ;
+}
+figcaption{
+font-size: 40px;
+margin-top: 15px;
+font-family: 'palatino', sans-serif;
+}
+div{
+border: 15px solid white;
+text-align: center;
+background: white;
+margin: 0px auto 50px;
+width: 120px;
+}
+
+
+/*// correction*/
+/*h1 {
+	border: 5px solid black;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Arial', sans-serif;
+	padding: 20px;
+	
+}
+
+.rubrique {
+	background: lightgreen;
+	border: 5px solid green;
+	max-width: 800px;
+
+}
+
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+	border: 3px solid green;
+	padding: 10px 10px 5px;
+}
+
+.article {
+	background: white;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.theme-rouge {
+	background: pink;
+	border: 5px solid red;
+}
+
+.theme-rouge h2 {
+	border: 3px solid red;
+}*/

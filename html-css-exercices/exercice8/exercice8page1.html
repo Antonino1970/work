@@ -1,0 +1,102 @@
+<!doctype html> 
+<html lang="fr">
+	<head>
+		<link rel="stylesheet" href="style/normalize.css">
+		<link rel="stylesheet" href="style/monstyle.css">
+		<title>les formulaires</title>	
+		<meta charset="utf-8" />
+		<meta name="description" content="ma première page html">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<form action="#" methode="post" enctype="multipart/form-data ">
+<div>
+	<fieldset>	
+		<legend>Coordonnées</legend>
+			<p>
+				<label for="NomID">Nom</label>
+				<input type="text"name="Nom"			
+				id="NomID"required/>
+			</p>
+				<label for="PrenomID">Prenom</label>
+				<input type="text"name="Prenom"			
+				id="PrenomID"required/>
+			<p>
+			<p>	<input type="radio" name="genre" value=" homme"checked id="m"> <label for="m">Homme </label>								<input type="radio" name="genre" value=" femme" id="f">		<label for="f">Femme</label></p>						
+			</p>
+			<p><label for="photo">Télecharger une photo</label>
+				<input type="file" name="monFichier"id="loginID"required/>
+			</p>
+
+	</fieldset>
+	<fieldset>	
+		<legend>Connexion</legend>
+			<p>
+				<label for="loginID">login</label>
+				<input type="text"name="login"
+				placeholder="votre login ici"
+				id="loginID"required/>
+			</p>
+			<p>			
+				<label for="mdpID">Mot de passe</label>
+				<input type="password"name="mdp"
+					   placeholder="Votre mot de passe ici"
+					   id="mdpID">
+			</p>
+			<p>			
+				<label for="mdp2ID">Répéter le mot de passe</label>
+				<input type="password"name="mdp2"
+					   placeholder="Votre mot de passe ici"
+					   id="mdp2ID">
+			</p>
+	</fieldset>		
+	<fieldset>
+		<legend>Société</legend>	
+			<p>
+				<label for="societeID">Nom de la société</label>
+				<input type="text"name="Nom de la société"			
+				id="societeID"/>
+			</p>
+			<p>
+				<label for="secteurID">Secteur d'activité</label>
+				<select name="SecteurActivite"id="secteurID">
+				<optgroup label="informatique">
+					<option value="reseaux">Réseaux</option>
+					<option value="devellopeur web">Dévellopeur Web</option>
+				</optgroup>
+				<optgroup label="Restauration">
+					<option value="fast food">Fast food</option>
+					<option value="restaurant gastronomique">Restaurant gastronomique</option>
+				</optgroup>	
+				<optgroup label="industrie">
+					<option value="automobile">Automobile</option>
+					<option value="metallurgie">Métallurgie</option>
+				</optgroup>
+				</select>			
+			</p>
+			<p>
+				<label for="descritionID">Description de la société :</label>
+			</p>	
+				<textarea class="cadre" id="descritionID" name="Description de la société" 
+			
+				placeholder="Vous pouvez ecrire ici .">
+				</textarea>	
+			<p>						
+	</fieldset>
+			<p class="envoyer">
+				<input class="bouton"type="submit" value="Envoyer">
+				<input class="bouton"type="reset" value="Annuler">
+			</p>
+		</div>
+	</form>
+
+
+</body>
+	
+	
+</html>
+
+
+

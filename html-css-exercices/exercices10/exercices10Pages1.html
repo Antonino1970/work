@@ -1,0 +1,93 @@
+<!doctype html> 
+<html lang="fr">
+	<head>
+		<link rel="stylesheet" href="style/normalize.css">
+		<link rel="stylesheet" href="style/monstyle.css">
+		<title>Exercice 10 (page 1)</title>	
+		<meta charset="utf-8" />
+		<meta name="description" content="Galerie page html">
+		<script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600;900&family=Roboto:ital,wght@0,300;0,500;0,900;1,300;1,500&display=swap" rel="stylesheet"> 
+
+	</head>
+	<body>
+		<h1> ASBL PROFORMA </h1>
+		<nav>
+			<ul>
+				<li><a class="nav" href="#identite">Présentation</a></li><br>
+				<li><a class="nav" href="#formation"> Nos formations</a></li><br>
+				<li><a class="nav" href="#doc">Documents</a></li><br>
+				<li><a class="nav" href="#contact">Nous contacter</a></li>
+			</ul>
+		</nav>
+		<div>
+			<h2> Qui sommes-nous ?</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip x ea commodo
+			consequat.</p>
+			<a class="dore" href="mailto:mmonmail@ddd.be">contact</a>
+		</div>
+		<div class="formation" id="formation">
+			<h2> Nos formations</h2>
+				<figure>
+					<img src="images/formations.jpg" alt="formation">
+					<figcaption>Découvrez les bases de la programmation web grâce à notre formation d'introduction à la programmation			</figcaption>
+				</figure>
+			
+		</div>
+		<div>
+			<h2>Lien & document à telecharger</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+				<a class="dore" href="https.be">Amazone</a>
+				<a class="dore" href="https.be">Google</a>
+				<a class="dore" href="https.be">Youtube</a>
+				<a class="blue" href="images/java.pdf">Document 1</a>
+				<a class="blue" href="images/java.pdf">Document 2</a>
+
+			
+		</div>
+
+		<div class="contact" id="contact">
+					
+			<h2> Nous contacter</h2>
+
+			<form>
+				<p class="btcontact">
+					<label for="NomID">Votre nom</label><br>
+					<input type="text" name="nom"
+					id="NomID" required/>
+				</p>
+				<p class="btcontact">
+					<label for="PrenomID">Votre prenom</label><br>
+					<input type="text" name="Votre prénom"	
+					id="PrenomID" required/>
+				</p>				
+				<p class="btcontact">
+					<label for="emailID">Votre e-mail</label><br>	
+					<input type="email" name="email" value="votre e-mail doit contenir un @" id="emailID" required/>
+				</p>
+				<p class="btcontact">
+					<label for="descritionID">Votre message:</label><br>
+					<textarea class="cadre" id="descritionID" name="Description de la société" 			
+					placeholder="Vous pouvez ecrire ici .">
+					</textarea>	
+				<p class="btcontact">				
+				<p class="envoyer">
+					<input class="send" type="submit" value="Envoyer">
+				</p>
+			</form>
+		</div>
+	<tfoot>
+    	<tr>
+      		<td>c'est moi</td>
+      
+   		 </tr>
+  </tfoot>
+	</body>
+</html>
